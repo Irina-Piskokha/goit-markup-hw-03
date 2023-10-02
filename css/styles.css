@@ -86,7 +86,7 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.54px;
-    padding-right: 77px;
+    margin-right: 76px;  
 }
 
 .header-logo-span {
@@ -124,7 +124,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    padding: 25px 0;
+    /* padding: 25px 0; */
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -132,18 +132,21 @@ ul {
     justify-content: space-between;
 }
 
+.main-nav {
+    align-items: center;
+}
+
 .menu-link a {
     color: var(--title-color);
     font-weight: 500;
-    /* padding-right: 40px; */
 }
+
+.menu-link {
+    padding: 24px 0;
+ }
 
 .menu-link:not(:last-child) {
-    padding-right: 40px;
-}
-
-.link-phone {
-    padding-left: 40px;
+    margin-right: 40px;
 }
 
 .menu-link a:hover,
@@ -151,8 +154,16 @@ ul {
     color: var(--link-hover);
 }
 
+.adress-list {
+    gap: 40px;
+}
+
 .adress-link a {
     color: var(--text-color);
+}
+
+.adress-link {
+    padding: 24px 0;
 }
 
 .adress-link a:hover,
@@ -269,7 +280,7 @@ ul {
 
 .team-title {
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-text {
