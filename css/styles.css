@@ -1,0 +1,196 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --main-background-color: #4D5AE5;
+    --link-hover: #404BBF;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    font-size: 16px;
+    background-color: #fff;
+}
+
+address {
+    font-style: normal;
+}
+
+
+/* ========== COMPONENTS ========== */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--main-background-color);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+
+.header-logo-span {
+    color: var(--title-color);
+}
+
+h2 {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+
+h3 {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.40px;
+}
+
+.text {
+    color: var(--text-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* ========== /COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+
+.header {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.menu-link a {
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.menu-link a:hover,
+.menu-link a:focus {
+    color: var(--link-hover);
+}
+
+.adress-link a {
+    color: var(--text-color);
+}
+
+.adress-link a:hover,
+.adress-link a:focus {
+    color: var(--link-hover);
+}
+/* ========== /HEADER ========== */
+
+/* ========== MAIN TITLE ========== */
+
+.head {
+    background-color: var(--title-color);
+}
+
+.head-title {
+    color: #fff; 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.head-btn {
+    color: #fff;
+    background-color: var(--main-background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-family: var(--primary-font);
+}
+
+.head-btn:hover,
+.head-btn:focus {
+    cursor: pointer;
+    background-color: var(--link-hover);
+}
+/* ========== /MAIN TITLE ========== */
+
+/* ========== ABOUT ========== */
+/* ========== /ABOUT ========== */
+
+
+/* ========== WHAT ========== */
+/* ========== /WHAT ========== */
+
+
+/* ========== TEAM ========== */
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #fff;
+}
+
+/* ========== /TEAM ========== */
+
+
+/* ========== FOOTER ========== */
+.footer {
+    background-color: var(--title-color);
+}
+
+.footer-text {
+    color: #F4F4FD; 
+}
+
+.footer-span-logo {
+    color: #F4F4FD;
+}
+
+/* ========== /FOOTER ========== */
+
+/* ========== PORTFOLIO ========== */
+
+.portfolio-btn {
+    color: var(--main-background-color);
+    font-family: var(--primary-font);
+    background-color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    cursor: pointer;
+    background-color: var(--link-hover);
+    color: #fff;
+}
+
+.portfolio-title {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+/* ========== /PORTFOLIO ========== */
