@@ -29,6 +29,10 @@ body {
     margin: 0;
 }
 
+img { 
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -161,7 +165,7 @@ ul {
 
 .head {
     background-color: var(--title-color);
-    padding: 190px 0;
+    padding: 188px 0;
 }
 
 .head-title {
@@ -172,6 +176,8 @@ ul {
     letter-spacing: 1.12px;
     text-align: center;
     padding-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .head-btn {
@@ -187,6 +193,8 @@ ul {
     padding: 16px 32px;
     border-radius: 4px;
     border: 0;
+    min-width: 169px;
+    cursor: pointer;
 }
 
 .head-btn:hover,
@@ -203,7 +211,11 @@ ul {
 }
 
 .about-main-list {
-    justify-content: space-between;
+    gap: 24px;
+}
+
+.about-title {
+    margin-bottom: 8px;
 }
 
 .about-list {
@@ -219,11 +231,11 @@ ul {
 }
 
 .what-main-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .what-main {
-    justify-content: space-between;
+    gap: 24px;
 }
 
 /* ========== /WHAT ========== */
@@ -237,24 +249,27 @@ ul {
 }
 
 .team-main-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-main-list {
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .team-list {
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 0px 0px 4px 4px;
     overflow: hidden;
-    padding-bottom: 32px;
     box-shadow: 0px 1px 6px -3px #2E2F42;
 }
 
+.team-div {
+    padding: 32px 0;
+}
+
 .team-title {
-    padding: 32px 0 8px 0;
     text-align: center;
+    padding-bottom: 8px;
 }
 
 .team-text {
@@ -273,7 +288,11 @@ ul {
 .footer-text {
     color: #F4F4FD; 
     width: 264px;
-    padding-top: 16px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-span-logo {
@@ -285,11 +304,11 @@ ul {
 /* ========== PORTFOLIO ========== */
 
 .portfolio {
-    padding: 96px 0 72px 0;
+    padding: 96px 0 120px 0;
 }
 
 .portfolio-nav {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     justify-content: center;
 }
 
@@ -307,7 +326,7 @@ ul {
 }
 
 .portfolio-list:not(:last-child) {
-    padding-right: 48px;
+    margin-right: 24px;
 }
 
 .portfolio-btn:hover,
@@ -315,6 +334,13 @@ ul {
     cursor: pointer;
     background-color: var(--link-hover);
     color: #fff;
+    border: 1px solid transparent;
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-title {
@@ -324,11 +350,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-    padding: 32px 0 8px 0;
-}
-
-.portfolio-works-link {
-    text-indent: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-works {
@@ -337,9 +359,14 @@ ul {
 }
 
 .portfolio-works-list {
-    border: 1px solid #E7E9FC;
-    padding-bottom: 32px;
     margin-bottom: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3)
+}
+
+.portfolio-mrg {
+    margin-bottom: 0;
 }
 
 /* ========== /PORTFOLIO ========== */
