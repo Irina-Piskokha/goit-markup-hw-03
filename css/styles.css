@@ -139,6 +139,7 @@ ul {
 .menu-link a {
     color: var(--title-color);
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -374,8 +375,5 @@ ul {
     width: calc((100% - 48px) / 3)
 }
 
-.portfolio-mrg {
-    margin-bottom: 0;
-}
 
 /* ========== /PORTFOLIO ========== */
