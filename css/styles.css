@@ -366,13 +366,11 @@ ul {
 
 .portfolio-works {
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-works-list {
-    margin-bottom: 48px;
-    column-gap: 24px;
-    row-gap: 48px;
     width: calc((100% - 48px) / 3)
 }
 
